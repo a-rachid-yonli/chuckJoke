@@ -9,8 +9,8 @@ function generate() {
     .then((data) => (para.textContent = data.value));
   chuck.innerHTML = ` <img
                 src="chu.png"
-                width="150px"
-                height="150px"
+                width="50px"
+                height="50px"
                 alt="..."
                 class="img-thumbnail"
               />`;
